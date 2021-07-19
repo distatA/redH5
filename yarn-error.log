@@ -1,0 +1,72 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @vant/data
+
+PATH: 
+  C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.18.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@vant%2fdata: Not found
+      at Request.params.callback [as _callback] (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1220:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "diyifang",
+    "version": "1.22.10",
+    "private": true,
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build"
+    },
+    "dependencies": {
+      "axios": "^0.19.2",
+      "core-js": "^3.6.4",
+      "jquery": "^3.6.0",
+      "turn.js": "^1.0.5",
+      "v-viewer": "^1.5.1",
+      "vant": "^2.8.5",
+      "vue": "^2.6.11",
+      "vue-mobile-calendar": "^3.3.0",
+      "vue-router": "^3.1.6",
+      "vuex": "^3.4.0",
+      "weixin-js-sdk": "^1.6.0"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "~4.3.0",
+      "@vue/cli-service": "~4.3.0",
+      "babel-plugin-import": "^1.13.3",
+      "less": "^3.0.4",
+      "less-loader": "^5.0.0",
+      "px2rem-loader": "^0.1.9",
+      "vue-cli-plugin-axios": "0.0.4",
+      "vue-template-compiler": "^2.6.11"
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not dead"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
